@@ -53,6 +53,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .navi-group {
@@ -81,7 +83,7 @@ img {
 .navi-item {
   position: relative;
   box-sizing: border-box;
-  color: #2e2f42;
+  color: #404bbf;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -161,7 +163,7 @@ img {
 }
 
 .hero {
-  /*background-color: #2e2f42;*/
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -169,7 +171,7 @@ img {
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-position: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
