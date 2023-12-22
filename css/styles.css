@@ -303,7 +303,6 @@ img {
   gap: 24px;
   justify-content: center;
   align-items: center;
-  padding-bottom: 32px;
 }
 
 .social-item {
@@ -351,7 +350,11 @@ img {
   margin-bottom: 8px;
 }
 
-.team-list-item {
+.team-pic {
+  margin-bottom: 32px;
+}
+
+.team-list-items {
   color: #2e2f42;
   background-color: #fff;
   font-family: Roboto;
@@ -366,8 +369,8 @@ img {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team-pic {
-  margin-bottom: 32px;
+.team-list-item {
+  padding-bottom: 32px;
 }
 
 .team-list-item-header {
