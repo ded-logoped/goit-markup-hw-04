@@ -355,8 +355,6 @@ img {
 }
 
 .team-list-items {
-  padding-top: 32px;
-  padding-bottom: 32px;
   color: #2e2f42;
   background-color: #fff;
   font-family: Roboto;
@@ -372,6 +370,8 @@ img {
 }
 
 .team-list-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-list-item-header {
