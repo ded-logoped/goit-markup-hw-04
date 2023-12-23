@@ -513,9 +513,14 @@ img {
   padding-bottom: 100px;
 }
 
-.footer-all {
+.footer-container {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
+}
+
+.footer-all {
+  display: flex;
 }
 
 .footer-ul {
