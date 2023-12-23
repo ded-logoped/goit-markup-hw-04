@@ -515,10 +515,10 @@ img {
 
 .footer-all {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-ul {
-  align-items: baseline;
   margin-right: 120px;
 }
 
@@ -529,7 +529,7 @@ img {
 }
 
 .sfm {
-  display: inline-block;
+  display: block;
   color: #ffffff;
   font-family: Roboto;
   font-size: 16px;
